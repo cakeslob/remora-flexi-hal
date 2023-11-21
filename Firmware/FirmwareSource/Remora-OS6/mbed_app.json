@@ -1,0 +1,20 @@
+{
+    "requires": [
+        "bare-metal",
+        "rtos-api"
+    ],
+    
+    "artifact_name": "firmware",
+
+    "target_overrides": {
+        
+        "FLEXIHAL": {
+            "target.mbed_app_start": "0x08010000",
+            "platform.stdio-baud-rate": 115200,
+            "target.stdio_uart_tx": "PA_9",
+            "target.stdio_uart_rx": "PA_10"
+
+        
+        }
+    }
+}
