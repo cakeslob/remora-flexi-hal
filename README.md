@@ -1,3 +1,7 @@
+# Remora Flexi-HAL MbedOS6 version with UF2 bootloader
+
+This is the unoffical mbedos6 version firmware for the flexi-hal board. it is meant to run with uf2 bootloader. upload the bin using the pre-installed uf2 bootloader
+
 # Remora Flexi-HAL
 
 This is a port of the excellent Remora firmware for the Flexi-HAL.  
