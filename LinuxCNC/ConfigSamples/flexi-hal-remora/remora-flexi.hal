@@ -155,11 +155,11 @@
 
 # Motor enables
 
-	#inverted , depricated, use not pin
+	#inverted
 	#net j0enable => stepen_not.in
-	#net stepen_inv stepen_not.out <= remora.output.STEP_EN
+	#net stepen_inv stepen_not.out <= remora.output.07  
 	#net j2enable => stepen_z_not.in
-	#net stepen_z_inv stepen_z_not.out <= remora.output.STEP_EN_Z
+	#net stepen_z_inv stepen_z_not.out <= remora.output.08
 
 	#non-inverted
     # xyab motor enable
