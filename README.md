@@ -33,7 +33,7 @@ flexi pin 	  |  remora pin
 This is a port of the excellent Remora firmware for the Flexi-HAL.  
 https://github.com/Expatria-Technologies/Flexi-HAL
 
-Different in this fork from the 'standard' Remora is the lack of a config file. The board has a well defined set of inputs and outputs, typically with a single function. Within the LinuxCNC component the 'pins' are named intuitively to attempt to make HAL configuration easier. Pins are defined in board_config.h and the modules loaded in main.cpp in an attempt to keep the modules unmodified for easier maintenance as they are developed upstream.
+Different in this fork from the 'standard' Remora is the lack of a config file. The board has a well defined set of inputs and outputs, typically with a single function. ~~Within the LinuxCNC component the 'pins' are named intuitively to attempt to make HAL configuration easier.~~ Pins are defined in board_config.h and the modules loaded in main.cpp in an attempt to keep the modules unmodified for easier maintenance as they are developed upstream.
 
 Integration with the UF2 bootloader that ships on the Flexi-HAL is still a WIP; at this point the image must be installed via DFU or via the serial bootloader and will overwrite the UF2 bootloader. A script is provided in the Tools directory to do this from the Pi via the Pi header, including resetting the STM32 and managing the boot0 pin. This script can be used to re-install the UF2 bootloader as well if desired. stm32flash will need to be installed on the Pi (it is pre-installed in the Flexi-Pi image).
 
