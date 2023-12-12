@@ -1,3 +1,33 @@
+# Remora Component Flexi-HAL pin conversion
+
+flexi pin 	  |  remora pin
+--------- | --------------
+ X_LIMIT |  remora.input.00
+ A_LIMIT | remora.input.01
+ PROBE | remora.input.02
+ Y_LIMIT | remora.input.03
+ KPSTR | remora.input.04
+ DOOR | remora.input.05
+ HALT | remora.input.06
+ FD_HLD | remora.input.07
+ CYC_START | remora.input.08
+ Z_LIMIT | remora.input.09
+ B_LIMIT | remora.input.10
+ ENCODER INDEX | remora.input.11
+  AUX2 | remora.ouput.00
+ AUX3 | remora.ouput.01
+ MIST | remora.ouput.02
+ AUX1 | remora.ouput.03
+ SPINDLE_EN | remora.ouput.04
+ AUX0 | remora.ouput.05
+ COOLANT | remora.ouput.06
+ STEP_EN | remora.ouput.07
+ STEP_EN_Z | remora.ouput.08
+ SPINDLE_DIR |  remora.ouput.09
+ Spindle PWM | remora.SP.0
+ Encoder count | remora.PV.0
+
+
 # Remora Flexi-HAL
 
 This is a port of the excellent Remora firmware for the Flexi-HAL.  
