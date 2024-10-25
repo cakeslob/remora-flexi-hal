@@ -106,11 +106,12 @@ void Stepgen::makePulses()
 			//*(this->ptrFeedback) = this->DDSaccumulator;                     // Update position feedback via pointer to the data receiver
             *(this->ptrFeedback) = this->rawCount;
             this->isStepping = true;
-	}
+        }
 
+
+    }
 
 }
-
 
 void Stepgen::stopPulses()
 {

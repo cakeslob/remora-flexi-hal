@@ -506,7 +506,8 @@ int main()
     prevState = ST_RESET;
 
     printf("\nRemora PRU - Programmable Realtime Unit Mbed-OS6 \n");
-        printf("\nLoading - %s\n", BOARD);
+    printf("Remora-SPI driver");
+    printf("\nLoading - %s\n", BOARD);
 
     watchdog.start(2000);
 
