@@ -1,9 +1,11 @@
 # RPi5 + stepgen stuff flexi upgrade
 ------------------------------------------------
 question: what is this?
+
 answer: this firmware is for running the flexihal on current mainline remora. 
 
 question: how is this different from current flexihal firmware?
+
 answer: the features of this upgrade are as follows
  - runs MBedOS6
  - do not need to erase uf2 bootloader
@@ -11,6 +13,7 @@ answer: the features of this upgrade are as follows
  - works on RPi5
 
 question: will this firmware work with my current flexihal linuxcnc config?
+
 answer: no, flexihal does some things differently and uses a modified linuxcnc component. you need to rename the flexihal pins to remora pins, and install the remora components
 
 ## Remora Component Flexi-HAL pin conversion
